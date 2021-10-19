@@ -1,0 +1,12 @@
+
+
+$backGroundBody: url(../imagenes/background7.jpg); 
+$colorLinea: #550b51;
+$FontBody: Arial;
+
+
+
+@mixin fonts ($font-weight, $font-size) {
+    font-weight: $font-weight;
+    font-size: $font-size;
+}
