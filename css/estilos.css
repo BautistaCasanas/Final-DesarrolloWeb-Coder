@@ -231,6 +231,8 @@ footer {
             margin-top: 10px;
             margin-left: 20px;
             color: black; }
+            footer .container-footer-all .container-body .colum2 .row1 label .link-redesSociales {
+              text-decoration: none; }
       footer .container-footer-all .container-body .colum3 {
         max-width: 400px; }
         footer .container-footer-all .container-body .colum3 h2 {
