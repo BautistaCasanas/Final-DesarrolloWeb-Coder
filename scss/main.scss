@@ -221,7 +221,7 @@ header{
         display: block;
     }
     h1{
-        font-weight: 400;
+        font-weight: 450px;
         text-align: center;
         padding: 20px 0;
         font-size: 50px;
@@ -237,7 +237,7 @@ header{
     grid-template-columns: 4fr;
     grid-template-rows: 4fr;
     form{
-        width: 450px;
+        width: 350px;
     margin: auto;
     margin-top: 50px;
     background: rgba(0, 0, 0, 0.4);
@@ -311,7 +311,6 @@ footer{
                         margin-top: 10px;
                         margin-left: 20px;
                         color: black;
-                        list-style: none;
                 }
             }
         }
