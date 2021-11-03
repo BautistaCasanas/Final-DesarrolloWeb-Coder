@@ -10,7 +10,10 @@
 
 header{
     nav{
-        
+        position: fixed;
+        width: 100%;
+        top: 0%;
+        z-index: 500;
         .navbar{
             .container-fluid{
                 .logo{
@@ -21,12 +24,9 @@ header{
                 .collapse{
                     .navbar-nav{
                         .nav-link:hover{
-                            // border: 1px solid black;
-                            // background-color: violet;
+                            border: 1px solid black;
+                            background-color:white;
                             color: black;
-                            font-size: 26px;
-                            transition: 1s;
-                            word-spacing: 10px;
                         }
                     }
                 }
@@ -41,12 +41,15 @@ header{
     background-image: $backGroundBody;
     font-style:$FontBody;
     .main_Index{
+        .carousel-inner{
+            height: 500px
+        }
     h1{
         @include fonts(400, 50px);
         font-family: 'Libre Baskerville', serif;
         text-align: center;
         color: black;
-        margin-top: 50px;
+        margin-top: 150px;
         padding: 20px 0;
     }
     .linea{
@@ -55,8 +58,22 @@ header{
         width: 100%;
         display: block;
         }
+    
+    .reseñas{
+        margin-top: 30px;
+        font-size: 36px;
+        text-align:center;
     }
-}
+    .container{
+        margin-top: 50px;
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    }
+    } 
+
 
 
 /*QUIENES SOMOS*/
@@ -70,7 +87,7 @@ header{
         text-align: center;
         padding: 20px 0;
         color: black;
-        margin-top: 50px;
+        margin-top: 150px;
     }
     .linea{
         background: $colorLinea; 
@@ -138,7 +155,7 @@ header{
         padding: 20px 0;
         color: black;
         font-family: 'Libre Baskerville', serif;
-        margin-top: 50px;
+        margin-top: 150px;
     }
     .linea{
         background: $colorLinea; 
@@ -176,7 +193,7 @@ header{
             padding: 20px 0;
             color: black;
             font-family: 'Libre Baskerville', serif;
-            margin-top: 50px;
+            margin-top: 150px;
         }
         .galeria{
             display: grid;
@@ -230,7 +247,7 @@ header{
         font-size: 50px;
         color: black;
         font-family: 'Libre Baskerville', serif;
-        margin-top: 50px;
+        margin-top: 150px;
     }
     background-size: cover;
     background-attachment: fixed;
